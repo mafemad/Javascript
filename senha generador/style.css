@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 15px;
+}
+
+body{
+    background-color: rgb(214, 210, 210);
+}
+
+.fundo{
+    max-width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+button{
+    background-color: rgb(135, 234, 146);
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+
+}
+
+button:hover{
+    background-color:rgb(36, 218, 23);
+}

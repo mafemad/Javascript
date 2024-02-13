@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <h1>pedra-papel-tesoura</h1>
+
+
+    <div class="choices">
+        <button onclick="playGame('pedra')">👊</button>
+        <button onclick="playGame('papel')">✋</button>
+        <button onclick="playGame('tesoura')">✌️</button>
+    </div>
+
+    <div id="playerDisplay">Jogador:</div>
+    <div id="computerDisplay">Computador</div>
+    <div id="result"></div>
+
+    <div class="scoreDisplay">Pontuação do Jogador:
+        <span id="playerScoreDisplay">0</span>
+    </div>
+
+
+    <div class="scoreDisplay">Pontuação do Computador:
+        <span id="computerScoreDisplay">0</span>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

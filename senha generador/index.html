@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="fundo">
+            <h1>Gerador de senha</h1>
+
+            <input type="number" id="tamanho">
+            <label for="tamanho"> Tamanho da senha </label><br><br>
+
+            <input type="radio" id="minuscula">
+            <label for="minuscula"> inserir caracteres minúsculas</label><br>
+
+            <input type="radio" id="maiuscula">
+            <label for="maiuscula"> inserir caracteres maiúsculas</label><br>
+
+            <input type="radio" id="numeros">
+            <label for="numeros"> inserir números </label><br>
+
+            <input type="radio" id="simbolos">
+            <label for="simbolos"> inserir símbolos (!@#$%&*+_-)</label><br>
+
+            <button onclick="manda_senha()"> Gerar senha</button><br>
+
+            <label id="senha"></label>
+        </div>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

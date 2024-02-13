@@ -1,0 +1,14 @@
+body{
+    font-family: Verdana;
+    text-align: center;
+}
+
+#botao{
+    font-size: 3em;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.labels{
+    font-size: 3em;
+}

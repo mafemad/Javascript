@@ -1,0 +1,49 @@
+
+#container{
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+button{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(100, 104, 246);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+
+}
+
+button:hover{
+    background-color: blue;
+}
+button:active{
+    background-color: darkblue;
+}
+
+input{
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+#resutados{
+    margin: 25px;
+
+}
+
+#imagens img{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+
+}
+
